@@ -10,9 +10,9 @@ public class pageobjectclass extends Baseclass {
 	//private WebElement today;
 	////div[@class='menuLinkBar']//*[text()='Beauty iQ Steal']
 	@FindBy(xpath = "//div[@class='top-navigation base-component parbase']//*[text()='Beauty iQ Steal']")
-	private WebElement serch;
+	private WebElement beautyIqMenu;
 	@FindBy(xpath = "//*[@class='breadcrumb pageBreadcrumb']//li[@class='active']/h1")
-	private WebElement menu;
+	private WebElement breadcrumb;
 
 	public pageobjectclass() {
 		PageFactory.initElements(driver, this);
@@ -22,15 +22,15 @@ public class pageobjectclass extends Baseclass {
 		return today;
 	}*/
 
-	public WebElement product() {
-		return serch;
+	public WebElement getBeautyIqMenuWebElement() {
+		return beautyIqMenu;
 	}
 
-	public WebElement prctitem() {
-		return menu;
+	public WebElement getBreadcrumbWebElement() {
+		return breadcrumb;
 	}
 
-	public void mrng() {
+	public void moveToTodaysDealsMenu() {
 		Actions ref = new Actions(driver);
 		ref.moveToElement(driver.findElement(By.xpath("//div[@class='menuLinkCell menuLinksRight']//div[@class='deals']"))).build().perform();;
 	}
