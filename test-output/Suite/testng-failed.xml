@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Username" value="9524508538"/>
+  <parameter name="Password" value="9626369497"/>
   <test name="Test(failed)">
+    <parameter name="Username" value="9524508538"/>
+    <parameter name="Password" value="9626369497"/>
     <classes>
-      <class name="testpacksge.testclass">
+      <class name="testpacksge.testclass3">
         <methods>
-          <include name="verifyproduct"/>
+          <include name="homepage"/>
+          <include name="browserclose"/>
+          <include name="verifyTheParameter" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testpacksge.testclass -->
+      </class> <!-- testpacksge.testclass3 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

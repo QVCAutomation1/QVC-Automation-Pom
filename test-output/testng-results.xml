@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="87428" started-at="2020-08-28T14:42:49Z" finished-at="2020-08-28T14:44:16Z">
+  <suite name="Suite" duration-ms="32986" started-at="2020-10-17T07:09:56Z" finished-at="2020-10-17T07:10:29Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="87428" started-at="2020-08-28T14:42:49Z" finished-at="2020-08-28T14:44:16Z">
-      <class name="testpacksge.testclass">
-        <test-method status="PASS" signature="verifyproduct()[pri:0, instance:testpacksge.testclass@1832929]" name="verifyproduct" duration-ms="87363" started-at="2020-08-28T20:12:49Z" finished-at="2020-08-28T20:14:16Z">
+    <test name="Test" duration-ms="32986" started-at="2020-10-17T07:09:56Z" finished-at="2020-10-17T07:10:29Z">
+      <class name="testpacksge.testclass3">
+        <test-method status="PASS" signature="verifyTheParameter(java.lang.String, java.lang.String)[pri:0, instance:testpacksge.testclass3@1efef64]" name="verifyTheParameter" duration-ms="25952" started-at="2020-10-17T12:39:56Z" finished-at="2020-10-17T12:40:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9524508538]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9626369497]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyproduct -->
-      </class> <!-- testpacksge.testclass -->
+        </test-method> <!-- verifyTheParameter -->
+        <test-method status="PASS" signature="homepage()[pri:1, instance:testpacksge.testclass3@1efef64]" name="homepage" duration-ms="6971" started-at="2020-10-17T12:40:22Z" finished-at="2020-10-17T12:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:testpacksge.testclass3@1efef64]" name="browserclose" is-config="true" duration-ms="2961" started-at="2020-10-17T12:40:29Z" finished-at="2020-10-17T12:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testpacksge.testclass3 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

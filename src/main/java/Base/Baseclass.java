@@ -14,7 +14,7 @@ public class Baseclass {
 			System.setProperty("webdriver.chrome.driver",
 					"F:\\Build-Java\\eclipse-java-oxygen-3a-win32\\eclipse\\devaworkspace\\QVCPROJECT\\Driver\\chromedriver_win32 (1)\\chromedriver.exe");
 			driver = new ChromeDriver();
-			driver.get("https://www.qvc.com/");
+			driver.get("https://www.facebook.com/");
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 

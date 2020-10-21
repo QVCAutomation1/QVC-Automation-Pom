@@ -1,5 +1,6 @@
 package testpacksge;
 
+import org.openqa.selenium.TakesScreenshot;
 import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -31,6 +32,7 @@ public class testclass {
 		}
 
 	}
+
 
 	@AfterSuite
 	public void closeActiveBrowser() {
